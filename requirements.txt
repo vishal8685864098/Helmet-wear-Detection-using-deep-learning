@@ -1,10 +1,12 @@
-streamlit
+# requirements.txt
 opencv-python
 numpy
-pandas
-matplotlib
-Pillow
+face_recognition
 easyocr
+streamlit
+twilio
+Pillow
+PyYAML
 torch
 torchvision
-twilio
+git+https://github.com/davisking/dlib#egg=dlib
