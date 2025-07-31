@@ -7,3 +7,4 @@ Pillow
 easyocr
 torch
 torchvision
+twilio
