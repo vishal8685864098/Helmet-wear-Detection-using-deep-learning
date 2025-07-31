@@ -1,0 +1,27 @@
+streamlit
+opencv-python>=4.5.5.64
+numpy>=1.14.0
+pandas>=0.23.4
+torch
+Pillow>=5.2.0
+face_recognition
+easyocr
+twilio
+gdown>=3.10.1
+tqdm>=4.30.0
+requests>=2.27.1
+
+# Optional deep learning tools (only if you use them)
+tensorflow>=1.9.0
+keras>=2.2.0
+mtcnn>=0.1.0
+retina-face>=0.0.1
+
+# If you're using Flask-based API (optional)
+Flask>=1.1.2
+flask_cors>=4.0.1
+gunicorn>=20.1.0
+
+# Utility
+fire>=0.4.0
+
