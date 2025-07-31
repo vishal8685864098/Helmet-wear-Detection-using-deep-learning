@@ -19,10 +19,12 @@ ALERT_SOUND_PATH = r"C:\Users\barig\yolov5\helmet detection\alert.mp3"
 
 
 # Twilio credentials (fill your details)
-TWILIO_ACCOUNT_SID = ""
-TWILIO_AUTH_TOKEN = ""
-TWILIO_PHONE_NUMBER = "+xxxxxx"  # Your Twilio number
-RECIPIENT_PHONE_NUMBER = "+"  # Recipient number (with country code)
+# Twilio credentials (fill your details)
+TWILIO_ACCOUNT_SID = "ACcd0cf5bd417ac5b199316d1d9ffad3f4"  
+TWILIO_AUTH_TOKEN = "e84a0554a1e2694fc70ccba1663d95ec"  
+TWILIO_PHONE_NUMBER = "+17655408179"  # Your Twilio number  
+RECIPIENT_PHONE_NUMBER = "+918688586409"  # Recipient number (with country code)  
+
 
 # Initialize Twilio client
 client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
