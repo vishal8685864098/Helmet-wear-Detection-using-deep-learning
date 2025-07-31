@@ -1,0 +1,6 @@
+train: C:/Users/barig/Desktop/helmet wear detection/train/images
+val: C:/Users/barig/Desktop/helmet wear detection/valid/images
+test: C:/Users/barig/Desktop/helmet wear detection/test/images
+
+nc: 3
+names: ['With Helmet', 'Without Helmet', 'licence']
