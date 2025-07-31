@@ -8,10 +8,10 @@ import easyocr
 from PIL import Image
 from twilio.rest import Client
 import tempfile
-
+import dlib
 # Commented out for Streamlit Cloud (dlib not supported)
 # import face_recognition
-
+predictor = dlib.shape_predictor("models/shape_predictor_68_face_landmarks.dat")
 # Set page config
 st.set_page_config(page_title="Helmet Detection App", layout="wide")
 
